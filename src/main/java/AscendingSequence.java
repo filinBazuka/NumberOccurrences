@@ -12,7 +12,6 @@ public class AscendingSequence {
             }
 
             return result;
-
         }
 
         return new int[]{};
