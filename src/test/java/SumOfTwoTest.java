@@ -1,5 +1,7 @@
 import org.junit.jupiter.api.*;
 
+import java.util.Arrays;
+
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 
 public class SumOfTwoTest {
@@ -34,6 +36,7 @@ public class SumOfTwoTest {
 
         Assertions.assertArrayEquals(expectedResult, actualResult);
     }
+
     @Order(3)
     @Test
     public void testSumOfTwoHappyPathSmallArrayWithTheSameValues() {

@@ -38,10 +38,10 @@ public class SumOfTwo {
             }
 
             return result;
-
         }
 
         return new int[][]{};
-
     }
 }
+
+
