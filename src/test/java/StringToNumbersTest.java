@@ -72,7 +72,7 @@ public class StringToNumbersTest {
     }
 
     @Test
-    public void testStringToNumbersHappyPathEmptyLine() {
+    public void testStringToNumbersEmptyLine() {
         String numbers = "";
         int[] expectedResult = {};
 

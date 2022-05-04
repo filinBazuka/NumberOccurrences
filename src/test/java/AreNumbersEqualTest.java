@@ -15,6 +15,7 @@ public class AreNumbersEqualTest {
     //Expected result: -1
     //89, -89
     //Expected result: 1
+
     @Order(1)
     @Test
     public void testAreNumbersEqualHappyPathAEqualsBNumber() {
