@@ -13,7 +13,7 @@ public class StringToLetters {
                         || (letters.charAt(i) > 1039 && letters.charAt(i) < 1104)) {
                     result = result.concat(String.valueOf(Character.toChars(letters.charAt(i))));
                     // В "result" прибовлял конкатинацией "result.concat()"
-                    // "String.valueOf(Character.toChars(letters.charAt(i)))" - переводис содержимое
+                    // "String.valueOf(Character.toChars(letters.charAt(i)))" - переводил содержимое
                     // ячейки "i" по коду из "ascii" в символ.(интеледж помог)
                 }
             }
