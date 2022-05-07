@@ -15,6 +15,7 @@ public class CountWords {
             for (int i = 0; i < textArry.length; i++) {
                 if (textArry[i].contains(word) && textArry[i].length() == word.length()) {
                     if ((int) textArry[i].charAt(0) > 64 && (int) textArry[i].charAt(0) < 91) {
+
                         count++;
                     }
                 } else if (textArry[i].contains(word) && textArry[i].length() > word.length()) {
