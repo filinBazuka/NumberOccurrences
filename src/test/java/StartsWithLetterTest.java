@@ -28,7 +28,7 @@ public class StartsWithLetterTest {
         String expectedResult = "lame, love, lame, live, Look";
 
         StartsWithLetter as = new StartsWithLetter();
-        String actualResult = as.testStartsWithLetterAlgoritm(text, letter);
+        String actualResult = as.startsWithLetterAlgoritm(text, letter);
 
         Assertions.assertEquals(expectedResult, actualResult);
     }
@@ -54,7 +54,7 @@ public class StartsWithLetterTest {
         String expectedResult = "lame, love, lame, live, Look";
 
         StartsWithLetter as = new StartsWithLetter();
-        String actualResult = as.testStartsWithLetterAlgoritm(text, letter);
+        String actualResult = as.startsWithLetterAlgoritm(text, letter);
 
         Assertions.assertEquals(expectedResult, actualResult);
     }
@@ -80,7 +80,7 @@ public class StartsWithLetterTest {
         String expectedResult = "";
 
         StartsWithLetter as = new StartsWithLetter();
-        String actualResult = as.testStartsWithLetterAlgoritm(text, letter);
+        String actualResult = as.startsWithLetterAlgoritm(text, letter);
 
         Assertions.assertEquals(expectedResult, actualResult);
     }
@@ -92,7 +92,7 @@ public class StartsWithLetterTest {
         String expectedResult = "";
 
         StartsWithLetter as = new StartsWithLetter();
-        String actualResult = as.testStartsWithLetterAlgoritm(text, letter);
+        String actualResult = as.startsWithLetterAlgoritm(text, letter);
 
         Assertions.assertEquals(expectedResult, actualResult);
     }
@@ -104,7 +104,7 @@ public class StartsWithLetterTest {
         String expectedResult = "";
 
         StartsWithLetter as = new StartsWithLetter();
-        String actualResult = as.testStartsWithLetterAlgoritm(text, letter);
+        String actualResult = as.startsWithLetterAlgoritm(text, letter);
 
         Assertions.assertEquals(expectedResult, actualResult);
     }
